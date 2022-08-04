@@ -28,10 +28,31 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Some summary of angular:
 
+### Preview:
+
+    - class = file.ts 
+    
+    - template = file.html
+    
+    - Create component: "ng generate component componentName"
+
+    - In the class you can have variable , for call the variable in the template you need use "{{}}"
+
 ### Cap1:
 
-    - Use "ng generate" to create components
+    - "ng generate component xxx": generates three files:
 
+        - Class file:  
+
+            - @Component:
+
+|Properties| Details |
+|-------|------|
+|selector | The component's CSS element selector|
+|templateUrl| The location of the component's template file|
+|styleUrls| The location of the component's private CSS styles| 
+
+        
     - Use "xxx | uppercase " for pipe and make all caracter uppercase
 
     - Use "ngModel" for two way binding, template with class, and this module should be imported explicitly
@@ -62,5 +83,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ### Cap5: 
 
-    
+
     

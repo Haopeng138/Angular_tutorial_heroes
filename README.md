@@ -25,3 +25,42 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Some summary of angular:
+
+### Cap1:
+
+    - Use "ng generate" to create components
+
+    - Use "xxx | uppercase " for pipe and make all caracter uppercase
+
+    - Use "ngModel" for two way binding, template with class, and this module should be imported explicitly
+
+### Cap2:
+
+    - Select a element
+
+    - Use ngFor and ngIf
+
+### Cap3:
+
+    - Create a reusable component
+
+    - Use property binding to give the parent control over the child 
+
+    - Use @Input decorator to make soma variable property available
+
+### Cap4:
+
+    - Refactor data access to the service class
+
+    - Register a service 
+
+    - Use Observable and RxJS 
+
+    - Know the function of ngOnInit 
+
+### Cap5: 
+
+    
+    
